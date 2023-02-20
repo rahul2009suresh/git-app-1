@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-import './App.css';
-
 const Todo = () => {
   const [events, setEvents] = useState([]);
   const [eventName, setEventName] = useState('');
